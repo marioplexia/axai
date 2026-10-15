@@ -1,0 +1,10 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Ax Ai platform may only call the capture/act bridge.",
+  "windows": ["main"],
+  "remote": {
+    "urls": ["https://*.lovable.app", "https://*.lovableproject.com"]
+  },
+  "permissions": ["core:default"]
+}

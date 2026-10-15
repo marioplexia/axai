@@ -1,0 +1,6 @@
+Ax Ai - App de escritorio (Tauri)
+1. Sube esta carpeta a un repositorio de GitHub.
+2. En GitHub: Actions > "Ax Ai desktop (Tauri)" > Run workflow.
+3. En ~15 min descarga los instaladores (.exe/.msi Windows, .dmg Mac) en Artifacts.
+Para compilar en tu propia PC: instala Rust y ejecuta
+  npm i -g @tauri-apps/cli@2 && tauri icon src-tauri/app-icon.png && tauri build
