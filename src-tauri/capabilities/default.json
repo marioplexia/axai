@@ -1,10 +1,17 @@
 {
-  "$schema": "../gen/schemas/desktop-schema.json",
+  "$schema": "../gen/schemas/capability.json",
   "identifier": "default",
-  "description": "Ax Ai platform may only call the capture/act bridge.",
+  "description": "Capacidades de escritorio para Ax Ai Pro",
   "windows": ["main"],
-  "remote": {
-    "urls": ["https://*.lovable.app", "https://*.lovableproject.com"]
-  },
-  "permissions": ["core:default"]
+  "permissions": [
+    "core:default",
+    "core:event:default",
+    "core:webview:default",
+    "core:window:default"
+  ],
+  "remotePageAccess": [
+    {
+      "url": "https://axaipro.lovable.app/"
+    }
+  ]
 }
